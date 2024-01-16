@@ -1,0 +1,108 @@
+@import './variables.scss';
+
+.tripHeader {
+    background-color: white;
+    padding: 0 20px;
+    border-bottom: 3px solid #E1E1E3;
+
+    .edit-icon {
+        text-align: right !important;
+    }
+
+    .tripDate {
+        font-size:12px;
+        color: #74767a;
+    }
+
+    .triplocation {
+        font-size:12px;
+        color: #717273;
+        font-weight: 600;
+    }
+}
+
+.css-ah0e1x-MuiPaper-root {
+    box-shadow: none!important;
+    padding: 0 !important;
+}
+
+.css-mhc70k-MuiGrid-root {
+    width: 100% !important;
+    padding-bottom: 16px
+}
+
+.activity-container {
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+
+
+    .activity-item {
+        background-color: #E1E1E3 !important;
+        border-radius: 20px;
+        margin: auto !important;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+        margin-top: 10px!important;
+
+        .activityName {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .activityLocation {
+            font-size: 12px;
+            font-weight: 500;
+            font-style: italic;
+            color: #797a7b;
+        }
+
+        .activityTime {
+            text-align: center;
+
+            .time {
+                color: black;
+                font-weight: 600;
+                font-size: 16px;
+            }
+        }
+
+        .location {
+            display: flex;
+            background-color: #E1E1E3;
+
+            .pin-icon {
+                font-size: 14px;
+            }
+        }
+
+    }
+
+    .activity {
+        background-color: #E1E1E3;
+    }
+
+    .add-activities-link {
+        color:$blue;
+        font-weight:600;
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 15px;
+        padding-left: 0;
+    }
+}
+
+.closeButton {
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+
+    .closeIcon {
+        color: black;
+        
+     }
+}
+
+.tripDates {
+    text-align: left;
+    padding-left:6px;
+    font-weight: 600;
+}

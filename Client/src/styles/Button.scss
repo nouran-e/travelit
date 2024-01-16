@@ -1,0 +1,17 @@
+@import './variables.scss';
+
+.button-primary {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.button-blue {
+    background-color: $blue;
+}
+
+.button-yellow {
+    background-color: $yellow;
+}

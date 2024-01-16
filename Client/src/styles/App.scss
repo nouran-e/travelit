@@ -1,0 +1,32 @@
+
+@import './variables.scss';
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color:black;
+  background-color: $bgblue;
+}
+
+.navbar {
+  background-color: $yellow!important;
+  text-align: left!important;
+  padding: 10px;
+
+  .logo {
+    width: 160px;
+  }
+}
+
+.accountIcon {
+  font-size: 30px!important;
+  color: black;
+}
+
+h1{
+    font-weight: 200;
+    font-size: 50px;
+}
+
+

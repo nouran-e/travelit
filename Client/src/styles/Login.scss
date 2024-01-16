@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+:root, #root {
+    background-color: $bgblue!important;
+    margin:auto;
+    margin-top: 20px;
+
+    @media screen and (min-width: 764px)  {
+       width: 400px;
+       margin-top: 40px;
+    }
+}
+
+.login {
+  background-color: $yellow;
+  height: 700px;
+
+  .account-links {
+    padding-top: 30px;
+  }
+
+  .heading {
+    margin: 30px 0 40px;
+  }
+}
